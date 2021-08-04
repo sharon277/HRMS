@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<RootNamespace>HRMS.ApplicationCore</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.Text.Json" Version="5.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Constants\" />
+	  <Folder Include="Exceptions\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\ApplicationCore.Abstract\2-ApplicationCore.Abstract.csproj" />
+	  <ProjectReference Include="..\Infrastructure.Abstract\4-Infrastructure.Abstract.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<RootNamespace>HRMS.Infrastructure.Abstract</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Folder Include="Data\" />
+	  <Folder Include="Identity\" />
+	  <Folder Include="Logging\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\ApplicationCore.Abstract\2-ApplicationCore.Abstract.csproj" />
+	</ItemGroup>
+</Project>
